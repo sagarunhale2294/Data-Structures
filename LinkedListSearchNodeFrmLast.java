@@ -87,5 +87,6 @@ public class LinkedListSearchNodeFrmLast {
 		llist.printList();
 		llist.searchNode(3);
 		llist.searchNode(4);
+		llist.searchNode(5);
 	}
 }
