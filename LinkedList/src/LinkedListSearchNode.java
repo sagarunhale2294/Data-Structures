@@ -1,25 +1,25 @@
 /**
  * 
  */
-package com.cts.search;
 
-/**
- * @author Sagar Unhale
- * A Node of Linked list
- */
-class Node{
-	int data;
-	Node next;
-	Node(int data){
-		this.data=data;
-	}
-}
 /**
  * Driver class for Linked list operation
  * @author Sagar Unhale
  *
  */
 public class LinkedListSearchNode {
+
+	/**
+	 * @author Sagar Unhale
+	 * A Node of Linked list
+	 */
+	class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data=data;
+		}
+	}
 
 	Node head;
 	

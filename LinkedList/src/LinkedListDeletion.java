@@ -1,20 +1,6 @@
-package com.cts.delete;
 /**
  * For any details email to: sagarunhale2294@gmail.com
  */
-
-/**
- * Creating a Node to Insert into list
- * @author Sagar Unhale
- *
- */
-class Node{
-	int data;
-	Node next;
-	Node(int data){
-		this.data=data;
-	}
-}
 
 /**
  * Driver class which will implement all linked list manipulation
@@ -22,6 +8,19 @@ class Node{
  *
  */
 public class LinkedListDeletion {
+
+	/**
+	 * Creating a Node to Insert into list
+	 * @author Sagar Unhale
+	 *
+	 */
+	class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data=data;
+		}
+	}
 	Node head;
 	/**
 	 * Delete a specific Node from Linked list

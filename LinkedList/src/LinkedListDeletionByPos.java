@@ -1,24 +1,24 @@
 /**
  * 
  */
-package com.cts.deleteByPos;
 
-/**
- * Creating a Node For a Linked List
- * @author Sagar Unhale
- */
-class Node{
-	int data;
-	Node next;
-	Node(int data){
-		this.data=data;
-	}
-}
 /**
  * Driver Class which manipulate Linked List operatons
  * @author Sagar Unhale
  */
 public class LinkedListDeletionByPos {
+
+	/**
+	 * Creating a Node For a Linked List
+	 * @author Sagar Unhale
+	 */
+	class Node{
+		int data;
+		Node next;
+		Node(int data){
+			this.data=data;
+		}
+	}
 
 	Node head;
 	
