@@ -1,3 +1,5 @@
+package com.cts.search;
+
 class DeleteNthPositionElement {
   
     public static void deleteElement(int arr[], int position) {
